@@ -1,7 +1,7 @@
 import expect from 'expect';
 import AdminePage from 'AdminPage';
 
-describe('AdminePage', () =>{
+describe('AdminPage', () =>{
   it('should exist', ()=>{
     expect(AdminePage).toExist();
   });

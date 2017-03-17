@@ -13,7 +13,7 @@ describe('CardItem', () =>{
     expect(CardItem).toExist();
   });
 
-  describe('render', () => {
+  describe('render from server', () => {
 
     it('Title card should be correctly rendered', ()=>{
       let title = 'Title card';
@@ -31,7 +31,7 @@ describe('CardItem', () =>{
       expect($cardDescription).toBe(description);
     });
 
-    it('url card should be correctly rendered', ()=>{
+    it('url image card should be correctly rendered', ()=>{
       let url = 'http://res.cloudinary.com/dtxyaujhl/image/upload/v1489771501/vmj66ze3lattgxm3knbg.jpg';
       let card = TestUtils.renderIntoDocument(<CardItem url={url}/>);
       let $el  = $(ReactDOM.findDOMNode(card));

@@ -165,7 +165,8 @@ const ImageEdit = React.createClass({
             <textarea
               value={this.state.cardData.tooltip}
               onChange={this.handleTooltipText}
-              onBlur={this.saveDraft.bind(null, this.state.cardData)}>
+              onBlur={this.saveDraft.bind(null, this.state.cardData)}
+              className="tooltip-textarea">
             </textarea>
           </div>
         </div>
