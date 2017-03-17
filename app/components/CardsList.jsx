@@ -6,7 +6,7 @@ const ImagesList = React.createClass({
 
   getInitialState() {
     return {
-      imageslist: []
+      cards: []
     };
   },
 
@@ -17,9 +17,9 @@ const ImagesList = React.createClass({
   updateImage() {
     let that = this;
     getImages().then(res => {
-      let sortImages = res.data.reverse();
+      let sortCards = res.data.reverse();
       that.setState({
-        imageslist: sortImages
+        cards: sortCards
       })
     })
   },
@@ -30,7 +30,7 @@ const ImagesList = React.createClass({
         <h2 className="title-page">Uploaded image cards</h2>
         <div className="card-grids">
 
-          {this.state.imageslist.map((el, index) => {
+          {this.state.cards.map((el, index) => {
             return(
               <CardItem
                 key={index}
@@ -40,7 +40,6 @@ const ImagesList = React.createClass({
                 description={el.description}/>
             )
           })}
-
         </div>
       </div>
     )
