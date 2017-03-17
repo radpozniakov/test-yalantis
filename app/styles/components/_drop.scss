@@ -1,0 +1,21 @@
+.drop{
+  width: 60%;
+  max-width: 500px;
+  min-height: 200px;
+  background-color: rgb(251,251,251);
+  margin: 0 auto;
+  border-radius: 19px;
+  cursor: pointer;
+  border: 2px dashed #ccc;
+  &:hover{
+    background-color: rgb(245,245,245);
+  }
+  p{
+    text-align: center;
+    font-size: 1.35rem;
+    color: #5e5e77;
+    font-weight: 300;
+    padding-top: 20px;
+    line-height:2.2rem;
+  }
+}

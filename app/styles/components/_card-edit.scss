@@ -1,0 +1,32 @@
+.card-edit-grids {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 25px;
+}
+.card-edit{
+  width: 350px;
+  img{
+    max-width:100%;
+    margin-right: 25px;
+  }
+}
+.input-group{
+  label{
+    display: block;
+    padding: 10px 0px;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  input{
+    width: 100%;
+  }
+}
+
+.card .card-content.edit-content{
+  padding-bottom: 70px;
+}
+
+.hidden{
+  display: none;
+}

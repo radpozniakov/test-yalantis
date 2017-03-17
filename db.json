@@ -1,0 +1,25 @@
+{
+  "images": [
+    {
+      "title": "StockSnap",
+      "url": "http://res.cloudinary.com/dtxyaujhl/image/upload/v1489742472/rho3eescvpny60zxgklf.jpg",
+      "id": "rho3eescvpny60zxgklf",
+      "tooltip": "Краткий  цумцумумуам",
+      "description": "Крfbcgb"
+    },
+    {
+      "title": "2car",
+      "url": "http://res.cloudinary.com/dtxyaujhl/image/upload/v1489742467/aselam3fkgmrjioza0f5.jpg",
+      "id": "aselam3fkgmrjioza0f5",
+      "tooltip": "esfvesfv",
+      "description": "Краткое описание карточки"
+    },
+    {
+      "title": "iPhone-7-vs-Android-7",
+      "url": "http://res.cloudinary.com/dtxyaujhl/image/upload/v1489771501/vmj66ze3lattgxm3knbg.jpg",
+      "tooltip": "",
+      "id": "vmj66ze3lattgxm3knbg",
+      "description": "Краткое описание карточки"
+    }
+  ]
+}

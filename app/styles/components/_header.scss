@@ -1,0 +1,47 @@
+.header{
+  min-height: 72px;
+  background-color: $primary-color-dark;
+}
+.navigation{
+  width: 60%;
+  float: left;
+  ul{
+    list-style: none;
+    padding-left:0px;
+    li{
+      display: inline-block;
+      a{
+        text-decoration: none;
+        color: $primary-color-light;
+        font-weight:300;
+        line-height:2.6rem;
+        padding: 26px;
+        &:hover{
+          background-color: rgba(150,150,150,.2);
+        }
+      }
+      a.active{
+        color: $primary-color-text;
+        font-weight:400;
+        background-color: $primary-color;
+      }
+    }
+  }
+}
+.header-title{
+  color: $primary-color-light;
+  width: 40%;
+  font-weight:300;
+  float: right;
+  text-align: right;
+  font-size:1.3rem;
+  line-height:1.87rem;
+}
+
+.title-page{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 20px 0px;
+  letter-spacing: 2px;
+}
