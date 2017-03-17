@@ -6,7 +6,7 @@ var app = express();
 app.use(express.static('public'));
 
 app.listen(8081, function () {
-  console.log('Express server is up on port 8081');
+  console.log('Express server is up on http://localhost:8081');
 });
 
 

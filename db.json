@@ -1,25 +1,18 @@
 {
   "images": [
     {
-      "title": "StockSnap",
+      "title": "Горы",
       "url": "http://res.cloudinary.com/dtxyaujhl/image/upload/v1489742472/rho3eescvpny60zxgklf.jpg",
       "id": "rho3eescvpny60zxgklf",
-      "tooltip": "Краткий  цумцумумуам",
-      "description": "Крfbcgb"
+      "tooltip": "There are many variations of passages of Lorem Ipsum available",
+      "description": "There are many variations of passages of Lorem Ipsum available"
     },
     {
-      "title": "2car",
-      "url": "http://res.cloudinary.com/dtxyaujhl/image/upload/v1489742467/aselam3fkgmrjioza0f5.jpg",
-      "id": "aselam3fkgmrjioza0f5",
-      "tooltip": "esfvesfv",
-      "description": "Краткое описание карточки"
-    },
-    {
-      "title": "iPhone-7-vs-Android-7",
+      "title": "iPhone 7",
       "url": "http://res.cloudinary.com/dtxyaujhl/image/upload/v1489771501/vmj66ze3lattgxm3knbg.jpg",
-      "tooltip": "",
       "id": "vmj66ze3lattgxm3knbg",
-      "description": "Краткое описание карточки"
+      "tooltip": "",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority"
     }
   ]
 }
